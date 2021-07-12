@@ -1,0 +1,157 @@
+/* * {
+    background-color: cyan;
+} */
+
+input[type="radio"]:checked {
+  box-shadow: 0 0 0 3px red;
+}
+
+p:nth-of-type(2n) {
+  background-color: limegreen;
+}
+
+p::first-letter {
+  font-size: 50px;
+  color: maroon;
+}
+
+*::selection {
+  background-color: maroon;
+}
+
+body {
+  background-color: #f1faee;
+}
+
+button {
+  font-size: 30px;
+  background-color: #00cdd4;
+}
+
+button:hover {
+  color: rgb(196, 0, 130);
+}
+
+a:active {
+  text-decoration: overline;
+}
+
+h1,
+h2 {
+  color: #1d3557;
+}
+
+h1,
+h2 {
+  color: #e0e41b;
+}
+
+#signup {
+  background-color: #0062eb;
+  color: #f1faee;
+}
+
+.tag {
+  background-color: blueviolet;
+  color: cornsilk;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+span a {
+  background-color: crimson;
+}
+
+a {
+  color: darkcyan;
+}
+
+h2 button {
+  color: darkorange;
+}
+
+.post a {
+  color: deeppink;
+  background-color: white;
+  font-weight: bold;
+}
+
+h1 + section {
+  background-color: rgb(111, 96, 244);
+}
+
+footer > a {
+  color: springgreen;
+}
+
+/* span {
+  color: #457b9d;
+}
+
+.tag {
+  background-color: #e63946;
+  color: #f1faee;
+  font-size: 16px;
+}
+
+.post a {
+  color: #457b9d;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+footer a {
+  color: #e63946;
+}
+
+h2 + button {
+  font-size: 20px;
+}
+
+footer > a {
+  color: #457b9d;
+}
+
+input[type="password"] {
+  color: greenyellow;
+}
+
+a[href*="google"] {
+  color: #1d3557;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+.post button:active {
+  background-color: #02c39a;
+}
+
+.post:nth-of-type(2n) {
+  background-color: #dfe8dc;
+}
+
+h2::first-letter {
+  font-size: 50px;
+}
+
+p::first-line {
+  color: purple;
+}
+
+p::selection {
+  background-color: #fcbf49;
+}
+
+.post button:hover {
+  background-color: #e63946;
+  color: #f1faee;
+}
+
+button:hover {
+  background-color: olive;
+}
+
+button {
+  background-color: magenta !important;
+} */

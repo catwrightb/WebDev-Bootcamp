@@ -1,0 +1,37 @@
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1f1b29;
+}
+
+button {
+  background: none;
+  color: #ffa260;
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 2em;
+  transition: border-color 0.2s, color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+
+button:hover {
+  border-color: rgb(247, 220, 103);
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em rgb(247, 220, 103);
+  /* negative number will move up and positive will move down */
+  /* this will give the effect that the button moves up slightly when we hover over it */
+  transform: translateY(-0.25em);
+  /* this changes the mouse tip to let us know we can click it */
+  cursor: pointer;
+}
+
+button:active {
+  border-color: greenyellow;
+  color: green;
+  box-shadow: 0 0.5em 0.5em -0.4em greenyellow;
+  /* negative number will move up and positive will move down */
+  /* this will give the effect that the button moves up slightly when we hover over it */
+  transform: translateY(-0.25em);
+}

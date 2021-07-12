@@ -1,0 +1,13 @@
+section {
+  width: 80%;
+  height: 800px;
+  background-image: url("https://images.unsplash.com/photo-1624608999371-8eab6ee9d015?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2466&q=80");
+  margin: 0 auto;
+  background-size: cover;
+  background-position: bottom;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: "Orelega One", cursive;
+}

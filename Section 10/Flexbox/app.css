@@ -1,0 +1,50 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+#container:first-of-type {
+  background-color: cornflowerblue;
+  width: 90%;
+  height: 500px;
+  margin: 20px auto;
+  border: 5px solid cadetblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#container div {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+#container:nth-of-type(2) {
+  background-color: rgb(62, 82, 117);
+  width: 90%;
+  height: 500px;
+  margin: 20px auto;
+  border: 5px solid cadetblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+#container:nth-of-type(2) div {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+div:nth-of-type(4) {
+  align-self: flex-end;
+}
