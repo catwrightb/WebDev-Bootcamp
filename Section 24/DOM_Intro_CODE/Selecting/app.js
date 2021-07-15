@@ -31,3 +31,4 @@ for (let image of square) {
 const h2 = document.getElementsByTagName('h2');
 
 
+

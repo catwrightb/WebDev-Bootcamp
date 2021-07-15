@@ -3,6 +3,10 @@ body {
     margin: 0 auto;
 }
 
+.blue {
+    color: blue;
+}
+
 #banner {
     width: 100%;
 }
