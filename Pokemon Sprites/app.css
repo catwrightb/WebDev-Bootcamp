@@ -1,0 +1,8 @@
+div{
+    display: inline-block;
+    border: dashed rgb(84, 84, 209) 1px;
+}
+
+img {
+    display: block;
+}
