@@ -4,7 +4,7 @@ const container = document.querySelector('#container');
 const url = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/";
 const endUrl = ".png"
 
-printPokenon(151);
+printPokenon(898);
 
 // const image = document.createElement('img');
 // image.src = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png";
