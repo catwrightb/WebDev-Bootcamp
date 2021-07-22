@@ -34,6 +34,8 @@ function gameRoundsUpdate() {
     else{
         enableButtons();
     }
+
+    //restartCounter();
     
 }
 
@@ -45,6 +47,7 @@ function restartCounter() {
     gameRounds.selectedIndex = 0;
     printScore();
     gameRoundsUpdate();
+    gameRounds.disabled = false;
 
 }
 
@@ -65,6 +68,7 @@ function updateScore() {
 
     if(playerScores[0] >= gameRounds.value || playerScores[1] >= gameRounds.value){
         disableButtons();
+        gameRounds.disabled = true;
         let winningText = gameText.innerHTML;
 
         if(playerScores[0] >= gameRounds.value){
